@@ -32,7 +32,7 @@ from sympy.parsing.sympy_parser import (
 
 from src.utils import SAVED_FUNCS_PATH, transparent_invert
 
-use("TkAgg")
+# use("TkAgg")
 getLogger("matplotlib").setLevel(WARNING)
 
 TRANSFORMS: tuple = (*standard_transformations, implicit_multiplication_application)
